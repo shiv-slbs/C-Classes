@@ -1,0 +1,5 @@
+conditional operator ( ternary operstor):
+var  = exp1?exp2: exp3;
+if expresion 1 is true evaluate expreion 2.
+if expresion 1 is false evaluate expresion 3.
+e

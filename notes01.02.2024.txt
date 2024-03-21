@@ -1,0 +1,147 @@
+conditional operator ( ternary operstor):
+var  = "exp1?exp2: exp3;"
+if expresion 1 is true evaluate expreion 2.
+if expresion 1 is false evaluate expresion 3.
+
+
+you can also use nested ternary operator.
+Example :
+ "
+ (a>b)?
+	(a>c)?
+		printf("The greater number is: %d",a):
+		printf("The greater number is: %d",c):
+	(b>c)?
+		printf("The greater number is: %d",b):
+		printf("The greater number is: %d",c); ;
+"
+
+
+control structure:
+1. conditional structure:
+	a. Branching :
+		i. unidirectional if
+		ii. Bidirectional if
+		iii. Multiway directional 
+	b. looping :
+		i. While
+		ii. Do while
+		iii. for
+2. Unconditional Structure :
+	i. boolean
+	ii. goto
+	iii.countinue
+	
+Switch :
+	Case1:{
+		statementy ;
+		break;
+		}
+	case 2:{
+		statement 2;
+		}
+	default :
+		statement;
+		
+
+do
+{
+	BODY
+	}while(condition);
+	
+for(initialisation; condition ; limitation){
+BODY
+}
+
+while(Condition){
+BODY
+}	
+
+
+loop:
+	i.for loops
+	ii.while loop
+	iii.do while loop
+	
+	for(int ; condn ; increment decrement ){
+	statemetn 1; 
+	statement 2;
+	}
+
+for loop:: steps:
+1.execute initialization
+2.test the condition
+ if  it is true , execute statement inside the loop.
+ 3. execute increment or decrement (may be other than ++ or --);
+ 4. test the condition again if it is true repeat step 2nd and 3rd;
+ 5. when the conditon is false : go out of loop and execute statement outside of loop.
+ 
+ statement of for loop are executed repeatedly as long as condition is true , when the condition becomes false control go out of loop.
+ for loop is a pretested or entry tested loop. i.e condition is tested at the begiing of the loop. it is not executed when the condition is false for the first time itself.  initiaslization can be made before the loop , increment decrement can be made in last, but two semi colons are necessary in"for loop".
+ 
+ while loop::
+ syntax:
+ while(cond){
+ statemetn1;
+ statemetn2;
+statemetn3;
+statemetn4;
+
+inc/dec ;
+}
+
+statements of while loop are executed repeatedly as lomng as the comndition is true when condtion becomes false control goes out of the loop , and statement outside the loop are executed . while loop is also pretested loop , it's not executed when the condition is  false for the first time itslef . 
+
+
+do while loop:: 
+syntax:
+do {
+ 	statemetn1;
+ 	statemetn2;
+	statemetn3;
+	}	while(condition);
+
+statemetn1;
+
+statements of do while loop are executed repeatedly as long as ciondition is true when the condition becomes false control goes out of loop and statements outside the loop are executed .
+do while loop is postested or exit tested loop, it is executed atleast once as condition is tested at the end of the loop . use do while loop to perform action first followed by conditional testing.
+
+questions: 
+1. display first 20 even numbers.
+2. display first 20 odd numbers.
+3. display uppwer and lower case alphabets.
+4. display fibonaci series .
+
+Array   : : 
+Array is a homogenius collection of vlaues represented in  continues memory location array can't contain different types of values , all the values of array must be of same type . use subscript operator " [ ] " to declare an array. 
+Examples : 
+int a [5] ;  //a is an array of 5 integers . it can only conatain 5 integer values .
+float b [7] ;   // b is an array of 7 floats .
+char c[44];   //c is an array of 44 characters .
+
+by default,  array index starts from zero i.e " 0,1,2,3,4 " .
+
+Note  :  variable can hold single value , array can hold more than one value. 
+
+Array Initialisation , 
+ 
+ 
+ 22 Feb 2024
+ wap to find median of an array of number
+ wap to find standard deviasion
+ wap to find largest number in an array
+ wap to find largest even number in an array
+
+
+
+
+
+4 march
+wap input a number check whether number is positive or negetive using call by value function with argument
+wap imput a number check whether number is even or odd using call by value with argument
+wap input a number find out its reverse using call by value with argument 
+wap input a number check whether number is armstrong or not using call by value with arhgument with return type
+wap input a number to find factorial.
+
+
+
