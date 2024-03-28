@@ -36,3 +36,8 @@ void main (){
 	struct p* ptr = &str1;
 	printf("%d %d ", ptr-> x, ptr-> y);
 	}
+	
+	
+	
+	
+	
